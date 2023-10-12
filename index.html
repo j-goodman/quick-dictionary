@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Dictionary</title>
-        <script src="script.js"></script>
+        <script defer src="script.js"></script>
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
@@ -9,12 +9,12 @@
         <div class="header-bar">Dictionary</div>
         <div class="content-container">
             <div class="search-box">
-                <input type="text">
-                <button>search</button>
+                <input id="search-input" type="text">
+                <button id="search-button">search</button>
             </div>
             <div class="definitions-box">
-                <h3>Grapefruit<h3>
-                <p>The tree of the species Citrus paradisi, a hybrid of pomelo (Citrus maxima) and sweet orange, or the large spherical tart fruit produced by this tree.</p>
+                <h3 id="word-name"><h3>
+                <p id="definitions"></p>
             </div>
         </div>
     </body>
