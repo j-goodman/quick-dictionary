@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     margin: 0;
@@ -58,6 +63,10 @@ body {
 
     .search-box {
         width: 100%;
+    }
+
+    .definitions-box {
+        border-left: none;
     }
 }
 
